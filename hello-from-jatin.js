@@ -5,9 +5,9 @@ http
     response.writeHead(200, {
       'Content-Type': 'text/plain',
     });
-    response.write('Hello from Jatin!\n');
+    response.write('Hello world!\n');
     response.end();
   })
   .listen(1337);
 
-console.log('Server live on http://localhost:1337');
+console.log('listening on http://localhost:1337');
